@@ -1,9 +1,9 @@
 PODS:
   - Flutter (1.0.0)
-  - seon_plugin (3.0.0):
+  - seon_plugin (4.0.0):
     - Flutter
-    - SeonSDK (~> 5.0.0)
-  - SeonSDK (5.0.0)
+    - SeonSDK (~> 5.2.0)
+  - SeonSDK (5.2.0)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -21,8 +21,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  seon_plugin: aa0b9450d85fd4691bd7be7681a98d0d7dfdfecc
-  SeonSDK: 6f350696536fe9c88b3098577716a624cfc741e3
+  seon_plugin: 8e1c5cd4950fcb2281f606b6ab9ecb90b4ef9521
+  SeonSDK: 1e6b894c512f826ea2551b4f231c982c71c2fbd2
 
 PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
 
