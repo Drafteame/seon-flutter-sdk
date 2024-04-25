@@ -1,4 +1,4 @@
-group 'com.example.seon_plugin'
+group 'io.draftea.seon_plugin'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -27,7 +27,7 @@ apply plugin: 'kotlin-android'
 android {
 
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.example.seon_plugin'
+        namespace 'io.draftea.seon_plugin'
     }
     compileSdk 34
 

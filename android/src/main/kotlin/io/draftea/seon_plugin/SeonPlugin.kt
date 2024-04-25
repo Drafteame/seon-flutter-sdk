@@ -1,4 +1,4 @@
-package com.example.seon_plugin
+package io.draftea.seon_plugin
 
 import android.content.Context
 import androidx.annotation.NonNull
