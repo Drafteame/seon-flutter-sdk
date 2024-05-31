@@ -1,41 +1,45 @@
+## 4.0.1
+
+- Report Native Android/IOS Error to Flutter
+
 ## 4.0.0
 
-* Upgrade Android SEON SDK to 6.3.0
-* Upgrade iOS SEON SDK to 5.2.0
+- Upgrade Android SEON SDK to 6.3.0
+- Upgrade iOS SEON SDK to 5.2.0
 
 ## 3.0.0
 
-* Upgrade Android SEON SDK to 6.0.2
-* Upgrade iOS SEON SDK to 5.0.0
-* Update Readme
+- Upgrade Android SEON SDK to 6.0.2
+- Upgrade iOS SEON SDK to 5.0.0
+- Update Readme
 
 ## 2.0.0
 
-* Upgrade Android SEON SDK to 5.0.2
-* Update Readme
+- Upgrade Android SEON SDK to 5.0.2
+- Update Readme
 
 ## 1.0.2
 
-* Update Readme
+- Update Readme
 
 ## 1.0.1
 
-* Upgrade Android SEON SDK to 4.1.0
-* Upgrade iOS SEON SDK to 4.0.0
-* Update example
+- Upgrade Android SEON SDK to 4.1.0
+- Upgrade iOS SEON SDK to 4.0.0
+- Update example
 
 ## 0.0.4
 
-* Fixed description in pubspec.yaml file
+- Fixed description in pubspec.yaml file
 
 ## 0.0.3
 
-* Update Readme
+- Update Readme
 
 ## 0.0.2
 
-* Update Readme
+- Update Readme
 
 ## 0.0.1
 
-* SEON Anti Fraud Flutter Plugin
+- SEON Anti Fraud Flutter Plugin
