@@ -18,27 +18,34 @@ public class SwiftSeonPlugin: NSObject, FlutterPlugin {
                 result(false)
                 return
             }
-        getSeonFingerPrint(session_id: sessionId!, isLoggingEnabled: isLoggingEnabled!, completionHandler: {(seonFingerprint) in result(seonFingerprint)}
-        )
+        getSeonFingerPrint(session_id: sessionId!, isLoggingEnabled: isLoggingEnabled!, result:result)
     }
   }
 
-    func getSeonFingerPrint(session_id: String?, isLoggingEnabled: Bool, completionHandler: @escaping (String?) -> Void) -> Void {
-    let seonfp = SEONFingerprint()
-      
-    // Enable logging
-    seonfp.setLoggingEnabled(loggingEnabled: isLoggingEnabled)
+    func getSeonFingerPrint(session_id: String?, isLoggingEnabled: Bool, result: @escaping FlutterResult) -> Void {
+      let seonfp = SEONFingerprint()
+        
+      // Enable logging
+      seonfp.setLoggingEnabled(loggingEnabled: isLoggingEnabled)
 
-    // Set session_id
-    seonfp.sessionId = session_id
+      // Set session_id
+      seonfp.sessionId = session_id
 
-    // Compute fingerprint asynchronously
-    seonfp.getFingerprintBase64 { seonFingerprint, error in
-        if let error{
-            print(error.localizedDescription)
-        } else{
-            completionHandler(seonFingerprint);
-        }
+      // Compute fingerprint asynchronously
+      seonfp.getFingerprintBase64 { seonFingerprint, error in
+          if let error{
+              print(error.localizedDescription)
+              result(
+                FlutterError.init(
+                  code: "SeonError",
+                  message: "Error: " + error.localizedDescription,
+                  details: error
+                )
+              )
+          } else{
+              result(seonFingerprint);
+          }
+      }
     }
-  }
+  
 }
