@@ -59,6 +59,10 @@ class SeonPlugin : FlutterPlugin, MethodCallHandler {
 
         } catch (e: SeonException) {
             e.printStackTrace()
+            result.error("SeonException",e.message,e)
+        } catch(e:Exception){
+             e.printStackTrace()
+            result.error("SeonExceptionGeneric",e.message,e)
         }
     }
 
