@@ -1,3 +1,7 @@
+## 4.0.2
+
+- Update Android SEON SDK to 6.4.1
+
 ## 4.0.1
 
 - Report Native Android/IOS Error to Flutter
