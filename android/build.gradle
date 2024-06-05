@@ -50,7 +50,7 @@ android {
 }
 
 dependencies {
-    implementation('io.seon.androidsdk:androidsdk:6.4.1') {
+    implementation('io.seon.androidsdk:androidsdk:6.3.0') {
         exclude(group : "org.bouncycastle", module : "bcprov-jdk14")
         transitive = true
     }
