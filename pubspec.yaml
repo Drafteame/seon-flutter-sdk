@@ -1,6 +1,6 @@
 name: seon_plugin
 description: SEON Anti Fraud Flutter Plugin - The Device Fingerprint tool collects thorough insight about the devices associated to a user.
-version: 4.0.1
+version: 4.0.2
 homepage: https://github.com/Drafteame/seon-flutter-sdk
 
 environment:
